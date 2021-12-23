@@ -21,6 +21,22 @@
     ></iframe>
 
     <script src="https://player.vimeo.com/api/player.js"></script>
+    <!-- <script>
+      const iframe = document.querySelector('iframe');
+      const player = new Vimeo.Player(iframe);
+
+      player.on('play', function () {
+        console.log('played the video!');
+      });
+
+      player.on('ended', function () {
+        console.log('ended the video!');
+      });
+
+      player.on('timeupdate', function (data) {
+        console.log('Percentage watched: ' + data.seconds);
+      });
+    </script> -->
     <script src="js/02-video.js"></script>
   </body>
 </html>
